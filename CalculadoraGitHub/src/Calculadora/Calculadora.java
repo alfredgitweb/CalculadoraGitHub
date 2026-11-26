@@ -26,7 +26,9 @@ class Calculadora {
 		return Math.pow(base, exponente);
 	}
 
-	
+	public static boolean esPar(int numero) {
+		return numero % 2 == 0;
+	}
 	
 	public static void main(String[] args) {
 		System.out.println("Calculadora GitHub");
