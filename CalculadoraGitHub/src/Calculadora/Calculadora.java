@@ -14,6 +14,14 @@ class Calculadora {
 		return a * b;
 	}
 	
+	public static double dividir(double a, double b) {
+	    if (b == 0) {
+	        System.out.println("Error: No se puede dividir por cero.");
+	        return 0.0;
+	    }
+	    return a / b;
+	}
+	
 	public static void main(String[] args) {
 		System.out.println("Calculadora GitHub");
 		System.out.println("Suma: " + sumar(8, 4));
