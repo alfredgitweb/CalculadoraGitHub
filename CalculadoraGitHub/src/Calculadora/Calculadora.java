@@ -22,6 +22,12 @@ class Calculadora {
 	    return a / b;
 	}
 	
+	public static double potencia(double base, int exponente) {
+		return Math.pow(base, exponente);
+	}
+
+	
+	
 	public static void main(String[] args) {
 		System.out.println("Calculadora GitHub");
 		System.out.println("Suma: " + sumar(8, 4));
